@@ -1,0 +1,196 @@
+.content-area {
+    margin: 2rem;
+    background-color: gray;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    align-items: center;
+}
+
+/* main-card-table */
+.title-custody{
+    position: absolute;
+}
+
+.custody-table{
+    margin-top: 8rem;
+    margin-right:34rem;
+    position: absolute;
+    background-color: burlywood;
+    padding-left: 0.4rem;
+    padding-right: 4rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    text-align: start;
+}
+
+/* main-card */
+.main-card{
+    display: flex;
+    justify-content: space-evenly;
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    /* flex: 1 1 calc(35% - 1em); */
+    background-color: whitesmoke;
+    border-radius: 2rem;
+    text-align: start;
+    margin-top: 0.25rem;
+    flex-direction: row; 
+}
+
+.main-card .left {
+    margin-top: 2.6rem;
+}
+
+.main-card .right {
+    margin-top: 2.6rem;
+}
+
+.main-card .user-name{
+    
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    text-decoration: black;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    margin: 0.5rem;
+}
+
+
+
+.note-card{
+   position: absolute;
+   margin-left: 37rem;
+    margin-top: 1rem;
+    margin-bottom: 23rem;
+    text-decoration: black;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* second-card */
+
+.second-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    height: 25rem;
+    width: 25rem;
+    /* flex: 0 1 calc(25% - 1em); */
+    background-color: whitesmoke;
+    border-radius: 2rem;
+}
+.second-card .right {
+    
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2.2rem;
+}
+.second-card .left {
+    margin-right: 1.8rem;
+}
+
+.space{
+    height: 0.3rem;
+}
+.space-triple{
+    height: 0.9rem;
+}
+
+.btn {
+    position: absolute;
+    display: inline-block;
+    margin-left: 38.5rem;
+    background-color: tomato;
+    border-radius: 2rem;
+    width: 20rem;
+    height: 2rem;
+    text-decoration: black;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20rem;
+}
+
+.third-card-title{ 
+    position: absolute;
+    margin-left: 33rem;
+    margin-top: 1rem;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* third-card */
+.third-card{
+    /* flex: 0 1 calc(25% - 1em); */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 0.18rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 16rem;
+    width: 71.3rem;
+    background-color:  whitesmoke;
+    border-radius: 2rem;
+}
+
+.third-card .operation-table-initiated {
+    margin-top: 3rem;
+}
+
+.third-card .operation-table-initiated th{
+    background-color: burlywood;
+    padding-left: 0.2rem;
+    padding-right: 3rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    text-align: start;
+}
+/* fourth-card */
+
+.fourth-card-title{ 
+    position: absolute;
+    margin-left: 33rem;
+    margin-top: 1rem;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.fourth-card{
+    /* flex: 0 1 calc(25% - 1em); */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 0.18rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 16rem;
+    width: 71.3rem;
+    background-color:  whitesmoke;
+    border-radius: 2rem;
+}
+
+.fourth-card .operation-table-finalized {
+    margin-top: 3rem;
+}
+
+.fourth-card .operation-table-finalized th{
+    background-color: burlywood;
+    padding-left: 0.2rem;
+    padding-right: 3rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    text-align: start;
+}

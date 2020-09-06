@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle Patrimonial</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="content-area">
+        <div class="heading">
+            <!-- <h1>Controle Patrimonial Acoes</h1> -->
+
+        </div>
+        <div class="cards">
+            <span class="title-custody">Sob Custodia</span>
+            <div class="main-card">
+                
+                <div class="left">
+                    
+                    <p class="budget">Caixa:</p>
+                    <p class="balance">Saldo:</p>
+                    <p class="percent-balance">Variacao Percentual:</p>
+                    <p class="taxes">Impostos de Venda: </p>
+                </div>
+                <div class="right">
+                  <p class="budget">R$ 3.500,00</p>
+                    <p class="balance">R$ 2.200,00</p>
+                    <p class="percent-balance">+32%</p>
+                    <p class="taxes">R$ 320,00</p>
+                </div>
+            </div>
+            <table class="custody-table">
+                <tr>
+                    <th>Quantidade</th>
+                    <th>Codigo</th>
+                </tr>
+                <td>233</td>
+                <td>233</td>
+            </tr>
+
+            </table>
+            <span class="note-card">Notas</span>
+            <ul class="second-card">
+
+                <div class="left">
+                    <p class="type-operation">Tipo da Operacao:</p>
+                    <p class="data">Data:</p>
+                    <p class="model">Modalidade:</p>
+                    <p class="stock">Codigo:</p>
+                    <p class="exchange">Corretora:</p>
+                    <p class="date-operation">Custos:</p>
+                    <p class="quote">Valor: </p>
+                    <p class="quantity">Quantidade: </p>
+                    <p class="order">Ordem: </p>
+
+                </div>
+
+                <div class="right">
+                    <select id="operation-type">
+                        <option>Day-Trade</option>
+                        <option>Swing-Trade</option>
+                        <option>Position-Trade</option>
+                        <option>Buy & Hold</option>
+                    </select>
+                    <div class="space"></div>
+                    <input type="date" class="data">
+                    <div class="space"></div>
+                    <select id="operation-type">
+                        <option>Acao</option>
+                        <option>Opcao Call</option>
+                        <option>Opcao Put</option>
+                    </select>
+                    <div class="space"></div>
+                    <input class="stock-input">
+                    <div class="space"></div>
+                    <input class="exchange-input">
+                    <div class="space"></div>
+                    <input class="date-operation-input">
+                    <div class="space"></div>
+                    <input class="quote-input">
+                    <div class="space"></div>
+                    <input class="quantity-input">
+                    <div class="space"></div>
+                    <select id="operation-order">
+                        <option>Compra</option>
+                        <option>Venda</option>
+                       
+                    </select>
+                </div>
+
+            </ul>
+            <button class="btn">Submit</button>
+        </div>
+        <span class="third-card-title">Operacoes em Andamento</span>
+        <div class="third-card">
+            <table class="operation-table-initiated">
+                <tr>
+                    <th>Tipo da Operacao</th>
+                    <th>Data</th>
+                    <th>Modalidade</th>
+                    <th>Codigo</th>
+                    <th>Corretora</th>
+                    <th>Valor I.</th>
+                    <th>Quantidade</th>  
+                    <th>Valor Atual</th>
+                </tr>
+                <td>233</td>
+                <td>233</td>
+                <td>233</td>
+                <td>233</td>
+                <td>233</td>
+
+            </table>
+        </div>
+        <div class="space-triple"></div>
+        <span class="fourth-card-title">Operacoes Finalizadas</span>
+        <div class="fourth-card">
+            <table class="operation-table-finalized">
+                <tr>
+                    <th>Tipo da Operacao</th>
+                    <th>Data</th>
+                    <th>Modalidade</th>
+                    <th>Codigo</th>
+                    <th>Corretora</th>
+                    <th>Emolumentos</th>
+                    <th>Impostos</th>
+                    <th>Valor I.</th>
+                    <th>Quantidade</th>  
+                </tr>
+                <td>233</td>
+                <td>233</td>
+                <td>233</td>
+                <td>233</td>
+                <td>233</td>
+
+            </table>
+        </div>
+    </section>
+</body>
+
+</html>
